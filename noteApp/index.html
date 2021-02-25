@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style/note.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note?</title>
+</head>
+<body>
+    <main>
+        <div class="send">
+            <h1>Send a note</h1>
+            <form action="/" method="post">
+                <textarea name="note" id="message to drop off" cols="30" rows="10"></textarea>
+                <button type="submit">Drop Off</button>
+            </form>
+        </div>
+        <div class="pickup">
+            <h1>Pick up a note</h1>
+            <form action="/" method="get">
+                <input type="text" name="code" id="secretCode">
+                <button type="submit">Pick Up</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
